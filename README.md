@@ -95,7 +95,7 @@ Here, a user can enter a text prompt and select the adapter weights for each dam
 ```bash
 streamlit run app.py
 ```
-![Snapshot of UI]([https://ibb.co/qk46wBw])
+![Snapshot of UI](https://ibb.co/qk46wBw)
 
 
 
