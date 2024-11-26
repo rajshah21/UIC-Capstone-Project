@@ -15,7 +15,7 @@ Link to Download: https://cardd-ustc.github.io/
 
 # Implementation
 
-1. Install Dependencies:
+## Install Dependencies:
 
    Install necessary libraries:
    ```bash
@@ -26,7 +26,7 @@ Link to Download: https://cardd-ustc.github.io/
    ```bash
    pip install git+https://github.com/huggingface/diffusers.git
    ```
-2. Steps to Prepare the Image Dataset for Fine-Tuning
+## Steps to Prepare the Image Dataset for Fine-Tuning
 
 ### 1. Run the Notebook
 - Execute the `Image Captioning for Damage.ipynb` notebook to prepare the image dataset for fine-tuning.  
