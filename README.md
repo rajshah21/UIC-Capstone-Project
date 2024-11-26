@@ -69,16 +69,23 @@ Link to Download: https://cardd-ustc.github.io/
   cd ./diffusers/examples/text_to_image/
   ```
 ### 2. Setup Accelerate Environment:
-- Setup an accelerate environment.
+- Set up an accelerate environment.
   ```bash
   accelerate config
   ```
-- Configuring accelerate environment for GPU based training where you can configure following:
+- Configuring accelerate environment for GPU-based training where you can configure the following:
      1) GPUs to be used during training.
      2) Distributed Training
      3) Mixed Precision (fp16 or bp16)
      4) Optimization libraries (dynamo, DeepSpeed)
-### 3. 
+### 3. Execute Training Script:
+- Copy the code from `train.sh` file and execute training.
+- Make sure to change necessary parameters like `dataset_name`, `rank`, `num_training_epochs`, `Output_dir`, `hub_model_id`, `validation_prompt`
+
+### 4. Saving the Fine-Tuned Model
+- Once training is completed, the fine-tuned model will be automatically pushed to your HuggingFace Hub.
+
+
     
 
 
