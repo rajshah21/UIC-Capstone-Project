@@ -85,7 +85,7 @@ As part of the IDS 560 Capstone Project for the Master’s in Business Analytics
 - Make sure to change necessary parameters like `dataset_name`, `rank`, `num_training_epochs`, `output_dir`, `hub_model_id`, `validation_prompt`
 
 ### 4. Saving the Fine-Tuned Model
-- Once training is completed, the fine-tuned model will be automatically pushed to your HuggingFace Hub.
+- Once training is completed, the fine-tuned model will be automatically pushed to your HuggingFace Hub with the `hub_model_id` specified.
 
 ### 5. Repeat Steps
 - Repeat all the above steps in this section for each damage category.
