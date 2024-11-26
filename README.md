@@ -60,6 +60,8 @@ Link to Download: https://cardd-ustc.github.io/
    # Push the dataset to the HuggingFace Hub
    dataset.push_to_hub('NAME_OF_DATASET', private=True)
   ```
+### 6. Repeat steps
+- For all damage categories, repeat all the above steps in this section.
 
 ## Fine-Tuning Stable Diffusion
 
@@ -84,6 +86,10 @@ Link to Download: https://cardd-ustc.github.io/
 
 ### 4. Saving the Fine-Tuned Model
 - Once training is completed, the fine-tuned model will be automatically pushed to your HuggingFace Hub.
+
+### 5. Repeat Steps
+- For all the damage categories, repeat all the above steps in this section.
+- At the end, you will have individual LoRA models (Expert LoRAs) for each damage category.
 
 
 # Implementing UI
