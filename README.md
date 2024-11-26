@@ -61,7 +61,7 @@ Link to Download: https://cardd-ustc.github.io/
    dataset.push_to_hub('NAME_OF_DATASET', private=True)
   ```
 ### 6. Repeat steps
-- For all damage categories, repeat all the above steps in this section.
+- Repeat all the above steps in this section to create individual image datasets for each damage category.
 
 ## Fine-Tuning Stable Diffusion
 
@@ -88,14 +88,14 @@ Link to Download: https://cardd-ustc.github.io/
 - Once training is completed, the fine-tuned model will be automatically pushed to your HuggingFace Hub.
 
 ### 5. Repeat Steps
-- For all the damage categories, repeat all the above steps in this section.
+- Repeat all the above steps in this section for each damage category.
 - At the end, you will have individual LoRA models (Expert LoRAs) for each damage category.
 
 
 # Implementing UI
 
 We have implemented a sample UI for this project using Streamlit. 
-Here, a user can enter a text prompt and select the adapter weights for each damage to generate an image.
+Here, a user can enter a `text prompt` and select the `adapter weights` for each damage to generate an image.
 
 ### 1. Execute the `app.py` file to implement the sample UI for this project.
 ```bash
