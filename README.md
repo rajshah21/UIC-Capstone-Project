@@ -8,7 +8,7 @@ CarDD dataset: Obtained from a research paper “A New Dataset for Vision-based 
 Link to Download: https://cardd-ustc.github.io/
 
 - Utilized a subset of the above dataset to fine-tune our stable diffusion model.
-- Considered only 4 vehicle damages as of now. They are: **Flat Tires**, **Dents**,**Scratches**, and **Glass Shatter**.
+- Considered only 4 vehicle damages as of now. They are: **Flat Tires**, **Dents**, **Scratches**, and **Glass Shatter**.
 - Separated each vehicle damage image to its respective folder.
 
 
@@ -45,19 +45,18 @@ Link to Download: https://cardd-ustc.github.io/
 
 ### 4. Create an Image Dataset
 - The `datasets` library is used to create an image dataset:
+
   ```python
   from datasets import load_dataset
 
   dataset = load_dataset('imagefolder', data_dir='PATH_TO_FOLDER', split='train')
   ```
-### 5
+### 5 Push dataset to HuggingFace
 The dataset is uploaded to the HuggingFace Hub:
-```bash
+```python
 from huggingface_hub import login
-
 # Log in with your HuggingFace token
 login(token='YOUR_HUGGINGFACE_TOKEN')
-
 # Push the dataset to the HuggingFace Hub
 dataset.push_to_hub('NAME_OF_DATASET', private=True)
 ```
