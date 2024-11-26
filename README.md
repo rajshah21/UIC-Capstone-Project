@@ -61,6 +61,27 @@ Link to Download: https://cardd-ustc.github.io/
    dataset.push_to_hub('NAME_OF_DATASET', private=True)
   ```
 
+## Fine-Tuning Stable Diffusion
+
+### 1. Navigate to training script in Diffusers Repo:
+- Once you have cloned the diffusers repo, navigate to `train_text_to_image_lora.py` file.
+  ```bash
+  cd ./diffusers/examples/text_to_image/
+  ```
+### 2. Setup Accelerate Environment:
+- Setup an accelerate environment.
+  ```bash
+  accelerate config
+  ```
+- Configuring accelerate environment for GPU based training where you can configure following:
+     1) GPUs to be used during training.
+     2) Distributed Training
+     3) Mixed Precision (fp16 or bp16)
+     4) Optimization libraries (dynamo, DeepSpeed)
+### 3. 
+    
+
+
 
      
    
