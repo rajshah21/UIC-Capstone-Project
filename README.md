@@ -52,14 +52,14 @@ Link to Download: https://cardd-ustc.github.io/
   dataset = load_dataset('imagefolder', data_dir='PATH_TO_FOLDER', split='train')
   ```
 ### 5 Push dataset to HuggingFace
-The dataset is uploaded to the HuggingFace Hub:
-```python
-from huggingface_hub import login
-# Log in with your HuggingFace token
-login(token='YOUR_HUGGINGFACE_TOKEN')
-# Push the dataset to the HuggingFace Hub
-dataset.push_to_hub('NAME_OF_DATASET', private=True)
-```
+- The dataset is uploaded to the HuggingFace Hub:
+  ```python
+   from huggingface_hub import login
+   # Log in with your HuggingFace token
+   login(token='YOUR_HUGGINGFACE_TOKEN')
+   # Push the dataset to the HuggingFace Hub
+   dataset.push_to_hub('NAME_OF_DATASET', private=True)
+  ```
 
 
      
