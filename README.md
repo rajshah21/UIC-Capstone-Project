@@ -80,10 +80,23 @@ Link to Download: https://cardd-ustc.github.io/
      4) Optimization libraries (dynamo, DeepSpeed)
 ### 3. Execute Training Script:
 - Copy the code from `train.sh` file and execute training.
-- Make sure to change necessary parameters like `dataset_name`, `rank`, `num_training_epochs`, `Output_dir`, `hub_model_id`, `validation_prompt`
+- Make sure to change necessary parameters like `dataset_name`, `rank`, `num_training_epochs`, `output_dir`, `hub_model_id`, `validation_prompt`
 
 ### 4. Saving the Fine-Tuned Model
 - Once training is completed, the fine-tuned model will be automatically pushed to your HuggingFace Hub.
+
+
+# Implementing UI
+
+We have implemented a sample UI for this project using Streamlit. 
+Here, a user can enter a text prompt and select the adapter weights for each damage to generate an image.
+
+### 1. Execute the `app.py` file to implement the sample UI for this project.
+```bash
+streamlit run app.py
+```
+![Snapshot of UI]([https://ibb.co/qk46wBw])
+
 
 
     
