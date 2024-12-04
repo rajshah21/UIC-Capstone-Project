@@ -1,5 +1,13 @@
 # UIC-Capstone-Project
 ## AI-Driven Image Generation: Leveraging Stable Diffusion and LoRA Fine-Tuning.
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" width="50" height="50"/>
+  <img src="https://huggingface.co/front/assets/huggingface_logo.svg" alt="HuggingFace" width="50" height="50"/>
+  <img src="https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.svg" alt="Streamlit" width="50" height="50"/>
+  <img src="https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/transformers/diffusers.png" alt="Diffusers" width="50" height="50"/>
+</p>
+
 Team Members: **Raj Shah**, **Harsh Mehta**, **Bhavana Pinni**, **Tomiwa Majekodunmi**, **Kurshid Shaik**
 
 Project Overview:
