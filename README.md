@@ -100,18 +100,10 @@ As part of the IDS 560 Capstone Project for the Master’s in Business Analytics
 
 # Implementing UI
 
-### Execute the UI
-- Run the `app.py` file with below command to generate images in our sample UI.
-
-```bash
-streamlit run app.py
-```
-
-
 We have implemented a sample UI for this project using Streamlit. 
 Here, a user can enter a `text prompt` and select the `adapter weights` for each damage to generate an image.
 
-### 1. Execute the `app.py` file to implement the sample UI for this project.
+### 1. Execute the `app.py` file with the below command to implement the sample UI.
 ```bash
 streamlit run app.py
 ```
