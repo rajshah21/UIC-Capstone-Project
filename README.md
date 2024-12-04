@@ -1,12 +1,10 @@
 # UIC-Capstone-Project
 ## AI-Driven Image Generation: Leveraging Stable Diffusion and LoRA Fine-Tuning.
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="50" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" width="50" height="50"/>
-  <img src="https://huggingface.co/front/assets/huggingface_logo.svg" alt="HuggingFace" width="50" height="50"/>
-  <img src="https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.svg" alt="Streamlit" width="50" height="50"/>
-  <img src="https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/transformers/diffusers.png" alt="Diffusers" width="50" height="50"/>
-</p>
+![Python](https://img.shields.io/badge/-Python-blue?style=flat&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/-PyTorch-red?style=flat&logo=pytorch&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/-Hugging%20Face-FFD54F?style=flat&logo=huggingface&logoColor=black)
+![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+![Diffusers](https://img.shields.io/badge/-Diffusers-0096FF?style=flat&logo=huggingface&logoColor=white)
 
 Team Members: **Raj Shah**, **Harsh Mehta**, **Bhavana Pinni**, **Tomiwa Majekodunmi**, **Kurshid Shaik**
 
