@@ -1,4 +1,10 @@
 # UIC-Capstone-Project
+Team Members: 
+- Raj Shah
+- Harsh Mehta
+- Bhavana Pinni
+- Kurshid Shaik
+- Tomiwa Majekodunmi
 
 Project Overview:
 As part of the IDS 560 Capstone Project for the Master’s in Business Analytics program at the University of Illinois Chicago, we collaborated with CCC Intelligent Solutions to design and develop a sophisticated AI model for **Vehicle Damage Image Generation**. Leveraging state-of-the-art machine learning techniques, we implemented Fine-Tuning of the **Stable Diffusion Model (RunwayML V1.5)** utilizing **LoRA (Low-Rank Adaptation)** to achieve precise and scalable image generation results. This project demonstrates advanced capabilities in generative AI for real-world applications in the automotive and insurance industries.
