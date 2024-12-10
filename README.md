@@ -6,7 +6,12 @@
 ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 ![Diffusers](https://img.shields.io/badge/-Diffusers-0096FF?style=flat&logo=huggingface&logoColor=white)
 
-Team Members: **Raj Shah**, **Harsh Mehta**, **Bhavana Pinni**, **Tomiwa Majekodunmi**, **Kurshid Shaik**
+Team Members: 
+- **Raj Shah**: rshah288@uic.edu
+- **Harsh Mehta**: hmeht@uic.edu
+- **Bhavana Pinni**: bpinn@uic.edu
+- **Tomiwa Majekodunmi**: tmajek2@uic.edu
+- **Kurshid Shaik**: kshai@uic.edu
 
 Project Overview:
 As part of the IDS 560 Capstone Project for the Master’s in Business Analytics program at the University of Illinois Chicago, we collaborated with CCC Intelligent Solutions to design and develop a sophisticated AI model for **Vehicle Damage Image Generation**. Leveraging state-of-the-art machine learning techniques, we implemented Fine-Tuning of the **Stable Diffusion Model (RunwayML V1.5)** utilizing **LoRA (Low-Rank Adaptation)** to achieve precise and scalable image generation results. This project demonstrates advanced capabilities in generative AI for real-world applications in the automotive and insurance industries.
